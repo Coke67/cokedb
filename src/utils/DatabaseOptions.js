@@ -11,7 +11,7 @@ module.exports = {
      * @type {string}
      * @default ./database/
      */
-    path: "./database/",
+    path: "./cokedb/",
 
     /**
      * The tables for the database
