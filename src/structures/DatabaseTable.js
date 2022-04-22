@@ -96,7 +96,7 @@ module.exports = class DatabaseTable {
         let anyAvailable = false
         const start = Date.now()
 
-        this.db._debug("Starting to cache files for table", this.name, "...")
+        this.db._debug("Tablo için dosyaları önbelleğe almaya başlama", this.name, "...")
 
         for (const file of fs.readdirSync(this.dir)) {
             this.db._debug(`Loading file ${file} for table ${this.name}...`)
